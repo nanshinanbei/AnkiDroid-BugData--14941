@@ -1,0 +1,17 @@
+2023-12-19 15:04:22.372 21447-21447 ACRA                    com.ichi2.anki.debug                 E  ACRA caught a BadTokenException for com.ichi2.anki.debug
+                                                                                                    android.view.WindowManager$BadTokenException: Unable to add window -- token android.os.BinderProxy@f56f363 is not valid; is your activity running?
+                                                                                                    	at android.view.ViewRootImpl.setView(ViewRootImpl.java:1419)
+                                                                                                    	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:416)
+                                                                                                    	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:158)
+                                                                                                    	at android.app.Dialog.show(Dialog.java:427)
+                                                                                                    	at androidx.appcompat.app.AlertDialog$Builder.show(AlertDialog.java:1008)
+                                                                                                    	at com.ichi2.anki.pages.PageChromeClient.onJsAlert(PageChromeClient.kt:63)
+                                                                                                    	at E9.run(chromium-TrichromeWebViewGoogle.apk-stable-495157433:629)
+                                                                                                    	at android.os.Handler.handleCallback(Handler.java:942)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:99)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:223)
+                                                                                                    	at android.os.Looper.loop(Looper.java:324)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8631)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:582)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1061)
